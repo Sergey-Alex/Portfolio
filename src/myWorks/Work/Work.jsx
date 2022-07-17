@@ -3,9 +3,9 @@ import style from './Work.module.css'
 
 const Work = (props) => {
     return (
-        <div>
+        <div className={style.selfWorkCard}>
             <div className={style.image}>
-                <div className={style.textBtn}>watch project</div>
+                <a className={style.textBtn}>watch project</a>
             </div>
             <div className={style.workBlock}>
                 <span className={style.prN}>{props.projectName}</span>

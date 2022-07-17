@@ -3,7 +3,9 @@ import style from './FooterItem.module.css'
 
 const FooterItem = () => {
     return (
-        <div className={style.squareItem}></div>
+        <div className={style.squareItem}>
+
+        </div>
     );
 };
 

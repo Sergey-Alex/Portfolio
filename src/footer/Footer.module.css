@@ -1,21 +1,26 @@
 .footerBlock {
     background-color: #7aa5c9;
-    height: 180px;
+    height: 100px;
+
 }
 .footerContainer {
     border: 1px solid;
     height: 100%;
-    width: 80%;
+    max-width: 80%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
+
+
 }
-
-
+.text {
+    margin: 0 auto;
+}
 .square {
-    width:400px;
+    padding-top: 20px;
+    max-width: 100%;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    margin: 0 auto;
 }

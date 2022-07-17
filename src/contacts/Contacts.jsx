@@ -11,9 +11,9 @@ const Contacts = () => {
                     <input type="text"/>
                     <input type="text"/>
                     <textarea className={style.textArea}></textarea>
-
+                    <div className={style.sendHandler}>Send</div>
                 </form>
-                <div className={style.sendHandler}>Send</div>
+
             </div>
         </div>
     );
